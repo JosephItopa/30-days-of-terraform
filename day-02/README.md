@@ -23,7 +23,7 @@
 ## Key Takeaways
 - To view the deployment, ensure to be in the same region on the console as the script.
 - Always add tag to the ec2 instance created.
-- 'terraform apply' is the same with 'terraform plan' 
+- 'terraform apply' has the same output with 'terraform plan' but 'terraform apply' executes the deployment. 
 
 
 ---
@@ -37,3 +37,4 @@
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 ![alt text](image-3.png)
+![alt text](image-4.png)
