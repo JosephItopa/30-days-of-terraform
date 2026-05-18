@@ -16,6 +16,8 @@
 
 ---
 ## Challenges Faced
+- ec2 instance requires security group to be able to connect to the internet.
+- To avoid cyber attack, don't use port numbers that are lower than 1024. That's why I am not using port 80.
 - 'terraform graph' throws error beecause terraform hasnt been initiated.
 - Error: failed to refresh cached credentials, no EC2 IMDS role found.
 - I web page refuse to load. This was as a result of typo error, instead of 'nohup' I typed 'nohub'.
