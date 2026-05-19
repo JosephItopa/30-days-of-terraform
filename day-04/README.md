@@ -1,47 +1,34 @@
-# Day 04 - [Working with files in-depth]
+# Day 04 - [day-04: deploy a configurable web server]
 
 ## Objective
-- Rename, move, and delete files in bulk automatically.
+- To introduce variables for configuring terraform script so as to maintain DRY(Dont Repeat Yourself)
 
 ---
-
 ## What I Learned
-
-- To rename many files at once.
-- To change extension of several files at once.
-- To move files, and to permanently delete folders.
+- I learnt to write variables for different data types: list, number, string, etc.
+- I learnt to use terraform variables for port number within terraform script.
 
 ---
-
 ## What I Built / Practiced
-- I practiced renaming files, and changing file extension.
-- I practiced moving many files to a specific folder.
-- I practised deleting the folders.
+- I modify the web server deployment script to include variables.
+- I modify the web server deployment script to print out the public ip address of the server.
 
 ---
-
 ## Challenges Faced
-
-- 'rename' does not natively exist in ubuntu. So I have to install it using 'sudo apt install rename'
+- None
 
 ---
-
 ## Key Takeaways
-- "rename 's/.txt\/.doc\' *.doc" - to change file extension from '.txt' to '.doc'.
-- "rename 's/hire/hire_sheet/' *.csv" - to change file name of multiple files with extension '.csv'.
-- "rm -rf folder" - to permanently delete folders.
-- "mv *.txt /folder" - to move files with specific extension into 'folder'. 
+- Variables are useful in maintaining the DRY principle.
+- To create a variable for server port, the type must be number and the port number is set to a default 8080.
 
 ---
-
 ## Resources
-- Linux Fundamentals by Paul Cobbaut.
-- Google
+- Terraform Up & Running by Yevgeniy Brikman.
 
 ---
-
 ## Output
-
 (Include links, screenshots, code snippets, or results)
-![alt text](image.png)
 ![alt text](image-1.png)
+#### --------------
+![alt text](image.png)
