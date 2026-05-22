@@ -22,7 +22,7 @@
 ---
 ## Key Takeaways
 - To create an efficient s3 bucket requires several resources: a) s3 bucket resource, b) versioning resource, c) encryption resource;
-- 
+- Under the lifecycle, if the prevent_destroy flag is set to true, the bucket cannot not be deleted but when the flag is set to false then it can be deleted.
 
 ---
 ## Resources
@@ -37,3 +37,5 @@
 ![alt text](image.png)
 #### ----------------
 ![alt text](image-2.png)
+#### ----------------
+![alt text](image-3.png)
